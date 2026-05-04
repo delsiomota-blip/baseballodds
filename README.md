@@ -38,14 +38,25 @@ A clean, stable Streamlit application for MLB betting analysis with real-time da
 - pip
 - Internet connection (for real data)
 
-### Installation
+### Local Installation
 
 ```bash
 cd /home/workdir/artifacts
-
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+The app will open automatically at **http://localhost:8501**
+
+### Access from Another Device
+1. Find your computer's local IP (`ipconfig` on Windows / `ifconfig` on Mac/Linux)
+2. Open `http://YOUR-IP:8501` on your phone or tablet
+
+### Deploy to Streamlit Cloud (Free)
+1. Push this repo to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect your repo and deploy
+4. Your app will be live at `https://your-app-name.streamlit.app`
 
 ---
 
